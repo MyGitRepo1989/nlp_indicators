@@ -7,7 +7,7 @@ from config import *
 
 
 
-os.environ['GOOGLE_API_KEY'] = 'AIzaSyDxW-Zqxk3sUAegVDJnNW_UaRhSWbzU8N8'
+os.environ['GOOGLE_API_KEY'] = '3333333333333333'
 genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
 model = genai.GenerativeModel('gemini-1.5-flash')
 
